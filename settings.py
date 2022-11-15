@@ -6,7 +6,7 @@ from core.settings import Settings as CoreSettings
 class Settings(CoreSettings):
     print("    settings initialized.")
     # Bot settings
-    TOKEN = '1804656547:AAG9PiHAsd6CtdX8rda0ycn3Pao-5mVsLeA'  # hide_hashtag_bot
+    TOKEN = ''  # hide_hashtag_bot
     DB_NAME = "telegram_bot_instagram_otrabotka"
 
     DELAYED_HIDINGS_ENABLED = True
